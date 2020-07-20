@@ -1,11 +1,11 @@
 # IFTTT-webhook
-Adapter for IFTTT webhook service. (Fork of rumd3x/ifttt-notifier)
+Adapter for IFTTT webhook service. (Fork of rumd3x/ifttt-webhook)
 
 This library is in compliance with Estandarte Standards for notification services.
 
 ## Install
 ```
-composer require estandarte/ifttt-notifier
+composer require estandarte/ifttt-webhook
 ```
 
 ## Usage
