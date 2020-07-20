@@ -1,11 +1,11 @@
 # IFTTT-webhook
-Adapter for IFTTT webhook service.
+Adapter for IFTTT webhook service. (Fork of rumd3x/ifttt-notifier)
 
-This library is in compliance with Rumd3x Standards for notification services.
+This library is in compliance with Estandarte Standards for notification services.
 
 ## Install
 ```
-composer require rumd3x/slack-notifier
+composer require estandarte/ifttt-notifier
 ```
 
 ## Usage
@@ -13,8 +13,8 @@ composer require rumd3x/slack-notifier
 <?php
 require 'vendor/autoload.php';
 
-use Rumd3x\IFTTT\Event;
-use Rumd3x\IFTTT\Trigger;
+use Estandarte\IFTTT\Event;
+use Estandarte\IFTTT\Trigger;
 
 /**
  * Create event object passing the name

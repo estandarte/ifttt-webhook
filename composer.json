@@ -1,22 +1,22 @@
 {
-    "name": "rumd3x/ifttt-webhook",
+    "name": "estandarte/ifttt-webhook",
     "description": "Adapter for IFTTT webhook service",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
-            "name": "rumd3x",
+            "name": "estandarte",
             "email": "edmurcardoso@gmail.com"
         }
     ],
     "autoload": {
         "psr-4": {
-            "Rumd3x\\IFTTT\\": "src/"
+            "Estandarte\\IFTTT\\": "src/"
         }
     },
     "require": {
         "php": ">=7.1",
-        "rumd3x/notifier-interface": "^1.0",
+        "estandarte/notifier-interface": "^1.0",
         "guzzlehttp/guzzle": "^6.3"
     }
 }

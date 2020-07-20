@@ -1,8 +1,8 @@
 <?php
-namespace Rumd3x\IFTTT;
+namespace Estandarte\IFTTT;
 
-use Rumd3x\Standards\NotifierInterface;
-use Rumd3x\Standards\NotificationInterface;
+use Estandarte\Standards\NotifierInterface;
+use Estandarte\Standards\NotificationInterface;
 
 class Trigger implements NotifierInterface {
 

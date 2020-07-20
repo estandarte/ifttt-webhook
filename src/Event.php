@@ -1,7 +1,7 @@
 <?php
-namespace Rumd3x\IFTTT;
+namespace Estandarte\IFTTT;
 
-use Rumd3x\Standards\NotificationInterface;
+use Estandarte\Standards\NotificationInterface;
 
 class Event implements NotificationInterface {
 
